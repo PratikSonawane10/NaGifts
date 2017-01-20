@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/home"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/scanimage"
+            android:title="Scan Gift" />
+
+    <item
+        android:id="@+id/addclient"
+        android:icon="@drawable/addclient"
+        android:title="Add Client" />
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ordertruck"
+        android:title="Delivery Status" />
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/homeListCoordinatorLayout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mainactivitybg">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoheader"
+            android:id="@+id/logoHeader"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/logoFooter"
+            android:layout_alignStart="@+id/logoFooter" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whitefoter"
+            android:id="@+id/logoFooter"
+            android:layout_below="@+id/logoHeader"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10sdp" />
+
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

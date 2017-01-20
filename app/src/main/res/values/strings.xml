@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">DAVAKHAR GIFT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_android_image_adapter">AndroidImageAdapter</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="workfor_array">
+        <item>Select Work For</item>
+        <item>NaSolution</item>
+        <item>Davakhar</item>
+    </string-array>
+    <string-array name="workfor_status">
+        <item>Delivered</item>
+        <item>Pending</item>
+
+    </string-array>
+    <string-array name="title_array">
+        <item>Select Title</item>
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Ms</item>
+    </string-array>
+    <string-array name="option_array">
+        <item>Select Options</item>
+        <item>and Family</item>
+        <item>and Co-Partners</item>
+
+    </string-array>
+
+    <string-array name="clienttype_array">
+        <item>Select ClientType</item>
+        <item>DIMOND</item>
+        <item>GOLD</item>
+        <item>PLATNUM</item>
+        <item>SILVER</item>
+        <item>VIP</item>
+        <item>VVIP</item>
+    </string-array>
+</resources>

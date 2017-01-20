@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#D32F2F</item>
+        <item name="colorPrimaryDark">#B71C1C</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="cardTheme">
+        <item name="android:textColorHint">@color/edittxtcolor</item>//hint color And Label Color in False State
+        <item name="colorAccent">@color/colorAccent</item> //Label color in True State And Bar Color False And True State
+        <item name="colorControlNormal">@color/edittxtcolor</item>
+        <item name="colorControlActivated">@color/btnsignuptext</item>
+    </style>
+
+</resources>
